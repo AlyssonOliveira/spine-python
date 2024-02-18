@@ -1,6 +1,6 @@
 import math
 
-import Attachment
+from . import Attachment
 
 class RegionAttachment(Attachment.Attachment):
     def __init__(self):

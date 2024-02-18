@@ -1,4 +1,4 @@
-import Enum
+from . import Enum
 
 AttachmentType = Enum.enum(region=0, 
                            regionSequence=1)
